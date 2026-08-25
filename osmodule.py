@@ -28,3 +28,13 @@ folders = os.listdir("DATA")
 
 for folder in folders:
     print(os.listdir(f"DATA/{folder}"))
+
+
+'''The directory path can be excecuted'''
+
+print(os.getcwd())
+
+'''The path can also be changed'''
+
+# os.chdir("/study")    #After changing a directory the prior codes willl give error to find from the old directory
+

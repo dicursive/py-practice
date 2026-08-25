@@ -129,7 +129,7 @@ print(f"your inverted shit is: {shinji_hikaro(s)}")
 '''
 
 #checking if a string is a palindrome
-
+'''
 
 def ulta_ya_seedha(bs):
     return bs == bs[::-1]
@@ -144,6 +144,7 @@ if __name__ == "__main__":
      ulta_ya_seedha()
 # printing multiplication tables
 '''
+'''
 def tables(number):
 	for multiples in range(1, 11):
 		print(f"{number} * {multiples} = {number * multiples}")
@@ -151,3 +152,15 @@ def tables(number):
 number = int(input("Enter the number you want multiples of: "))
 tables(number)
 '''
+def cube(x):
+     return x*x*x   #Function for cube by 'def'
+'or'
+
+cube = lambda x: x*x*x #lambda is used for creating one liner function
+
+# Passing the function to another function
+def funcs(fs, value):
+   return 1 + fs(value)
+print(funcs(cube,3)) # cube goes to '1' and '3' goes to value
+                     # cube of 1 is 1 and cube of 3 is 27 so 27+1 = 28
+print(funcs(cube,2))

@@ -1,5 +1,5 @@
 # Break statement in for and while loop
-'''The break statment ends the loop
+'''The break statment ends the loop'''
 
 for i in range(1,10):
     i = i +1
@@ -7,7 +7,7 @@ for i in range(1,10):
     if i == 10:
        
         break
-'''
+
 
 
 # continue statemnt skips the iteration

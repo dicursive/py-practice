@@ -11,6 +11,3 @@ import eg_module
 eg_module.welcome()
 
 
-import functionss
-
-functionss.ulta_ya_seedha()

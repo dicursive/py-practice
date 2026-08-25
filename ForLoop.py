@@ -1,11 +1,11 @@
 # example of for loop
-'''
+
 name = 'henrycarvil'
 for letters in name:
     print(letters, end='' )
     if letters  == 'l' :
         print("his name means hope")
-'''
+
 
 # 'for loop' in a 'for loop'
 
