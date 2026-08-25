@@ -129,7 +129,7 @@ print(f"your inverted shit is: {shinji_hikaro(s)}")
 '''
 
 #checking if a string is a palindrome
-'''
+
 
 def ulta_ya_seedha(bs):
     return bs == bs[::-1]
@@ -139,8 +139,9 @@ if ulta_ya_seedha(bs):
      print(f"{bs} is a palindrome.")
 else:
       print(f"{bs} is not a palindrome.")
-    '''
-
+    
+if __name__ == "__main__":
+     ulta_ya_seedha()
 # printing multiplication tables
 '''
 def tables(number):
