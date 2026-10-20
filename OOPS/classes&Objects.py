@@ -1,4 +1,4 @@
-class student: # Class is like a model of form and we fill the information in it
+class student: # Class is like a modle of form and we fill the information in it
     name = "rohan"
     standard = "second year"
     course = "B.Tech"

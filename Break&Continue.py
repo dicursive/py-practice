@@ -1,12 +1,12 @@
 # Break statement in for and while loop
 '''The break statment ends the loop'''
 
-for i in range(1,10):
-    i = i +1
-    print(i)
-    if i == 10:
-       
-        break
+# for i in range(1,10):
+#     i = i +1
+#     print(i)
+#     if i == 10:
+        
+#         break
 
 
 
@@ -25,10 +25,23 @@ while(i<= 10):
 # Emulating the DO while loop
 '''it runs the code for atleast one time irrespective if the condition is true or not'''
 
-i = 0
-while True:
-    i = i+1 
+# i = 0
+# while True:
+#     i = i+1 
     
-    if i %10 == 0:
-        break
-    print(i)
+#     if i %10 == 0:
+#         break
+#     print(i)
+i = 0
+while (i<=10):
+
+    i+= 1
+    if i==5:
+        print(i ,"is skipped ")
+        continue
+    else:
+        print(i)
+
+
+        
+    

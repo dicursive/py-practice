@@ -1,10 +1,10 @@
 # example of for loop
 
-name = 'henrycarvil'
-for letters in name:
-    print(letters, end='' )
-    if letters  == 'l' :
-        print("his name means hope")
+# name = 'henrycarvil'
+# for letters in name:
+#     print(letters, end='' )
+#     if letters  == 'l' :
+#         print("his name means hope")
 
 
 # 'for loop' in a 'for loop'
@@ -41,3 +41,11 @@ for k in range(1, 21, 5):          #(initial no, final no, stepping )
     print(k)
     
 '''
+
+s = "triantiwontigongolope"
+s1  = s[:-4]
+print(s1)
+c =  len(s)
+print(c)
+d = c * "#"
+print(d)
